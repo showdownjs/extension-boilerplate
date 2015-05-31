@@ -1,0 +1,19 @@
+{
+  "name": "showdown-extension-boilerplate",
+  "repository": "showdownjs/showdown-extension-boilerplate",
+  "description": "A boilerplate that can be used to jumpstart your showdown extension development",
+  "version": "0.0.1",
+  "keywords": [
+    "markdown",
+    "md",
+    "showdown",
+    "extension"
+  ],
+  "dependencies": {
+    "showdownjs/showdown": "1.*.*"
+  },
+  "scripts": [
+    "./dist/showdown-extension-boilerplate.js"
+  ],
+  "license": "MIT"
+}

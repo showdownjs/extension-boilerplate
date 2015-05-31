@@ -1,0 +1,35 @@
+{
+  "name": "showdown-extension-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate that can be used to jumpstart your showdown extension development",
+  "keywords": [
+    "markdown",
+    "md",
+    "showdown",
+    "extension"
+  ],
+  "license": "MIT",
+  "author": "Estevão Soares dos Santos",
+  "main": "./dist/showdown-extension-boilerplate.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/showdownjs/showdown-extension-boilerplate.git",
+    "web": "https://github.com/showdownjs/showdown-extension-boilerplate"
+  },
+  "dependencies": {
+    "showdown": "1.x.x"
+  },
+  "ignore": [
+    ".editorconfig",
+    ".gitattributes",
+    ".gitignore",
+    ".jscs.json",
+    ".jshintignore",
+    ".jshintrc",
+    ".travis.yml",
+    "Gruntfile.js",
+    "package.json",
+    "src/*",
+    "test/*"
+  ]
+}
