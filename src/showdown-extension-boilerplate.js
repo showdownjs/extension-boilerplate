@@ -6,7 +6,7 @@ if (typeof require === 'function') {
 showdown.extension('showdown-extension-boilerplate', function() {
   'use strict';
 
-  return {
+  return [{
     type: 'lang', //or output
     filter: function (text, converter, options) {
       // your code here
@@ -19,6 +19,6 @@ showdown.extension('showdown-extension-boilerplate', function() {
     },
     regex: /foo/g, // if filter is present, both regex and replace properties will be ignored
     replace: 'bar'
-  };
+  }];
 });
 
